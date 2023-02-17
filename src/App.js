@@ -1,25 +1,13 @@
+//1.Import Area
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
 
+//2.Function Defination Area
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //Every Function Return Something
+  return <button className="btn btn-danger">LOGIN</button>;
 }
 
+//3.Export Area
 export default App;
